@@ -10,13 +10,7 @@ class CalculationHistory:
 
     @classmethod
     def retrieveHistory(cls) -> List[Calculation]:
-        for x in cls.history:
-            operation_name = x.operation.__name__
-            first_number = x.a
-            second_number = x.b
-            calc = x.docalculation
-            print("Operation: " + operation_name + ",", "First Number: " + str(first_number) + ",", "Second Number: " + str(second_number))
-        # return cls.history
+        return cls.history
     
     @classmethod
     def lastCalculation(cls) -> Calculation:
