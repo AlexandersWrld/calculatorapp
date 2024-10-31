@@ -13,8 +13,10 @@ class AddCommand(Command):
         try:    
             number_1 = int(input('Enter your first number: '))
             number_2 = int(input('Enter your second number: '))
-            ## number_3 = Calculator.add(number_1, number_2)
             number_3 = Calculator._perform_operation(number_1, number_2, add)
             print(number_3)
         except ValueError:
             print("Invalid input. Please enter a valid integer.")
+            ## number_3 = Calculator.add(number_1, number_2)
+        
+        
