@@ -66,6 +66,7 @@ class App:
                     sys.exit(0)  # Use sys.exit(0) for a clean exit, indicating success.
                 try:
                     self.command_handler.execute_command(cmd_input)
+                    (logging.info(f"Command: {cmd_input} entered"))
                 except KeyError:  # Assuming execute_command raises KeyError for unknown commands
                     logging.error(f"Unknown command: {cmd_input}")
                     sys.exit(1)  # Use a non-zero exit code to indicate failure or incorrect command.
