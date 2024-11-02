@@ -15,7 +15,7 @@ class AddCommand(Command):
             number_1 = int(input('Enter your first number: '))
             number_2 = int(input('Enter your second number: '))
             number_3 = Calculator._perform_operation(number_1, number_2, add)
-            appData.add_record("add", number_1, number_2, number_3)
+            appData.add_record("add", number_1, number_2, number_3) 
             print(number_3)
         except ValueError:
             print("Invalid input. Please enter a valid integer.")
