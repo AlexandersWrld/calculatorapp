@@ -1,6 +1,6 @@
 # Advanced Python Calculator for IS218, Building Web Applications.
 
-## App Demonstration: https://youtu.be/Z7rD80DvTo8 ##
+## App Demonstration(Parts 1 & 2, please watch both): [part 2](https://youtu.be/vjNuzy_dB2w) [part 1](https://youtu.be/Z7rD80DvTo8) ##
 
 ## Introduction ## 
 This project serves to teach us how to develop an advanced calculator application utilizing python's native functionality. 
