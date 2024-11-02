@@ -1,6 +1,4 @@
 add,2,3,5
-add,4,5,9
-add,6,9,15
-divide,6,2,3.0
-multiply,9,8,72
-subtract,6,5,1
+divide,9,3,3.0
+multiply,9,3,27
+subtract,9,3,6
