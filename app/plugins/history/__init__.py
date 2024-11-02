@@ -5,10 +5,12 @@ from decimal import Decimal, InvalidOperation
 from calculator import Calculator
 from calculator.calculation import Calculation
 from calculator.calchistory import CalculationHistory
-from calculator.arithmetic import add, subtract, multiply, divide
+from data import appData
 
 class HistoryCommand(Command):
     
     def execute(self):
-        appHistory = Calculator.getHistory()
+        # appHistory = Calculator.getHistory()
+        # print(appHistory)
+        appHistory = appData.retrieve_history()
         print(appHistory)
