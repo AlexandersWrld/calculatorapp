@@ -13,4 +13,10 @@ class appData:
     @classmethod
     def retrieve_history(cls):
         return cls.history
+    
+    @classmethod
+    def search_by_type(cls, type):
+        filtered_history = cls.history[cls.history['Operation'] == type]
+        return filtered_history
+
         
