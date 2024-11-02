@@ -25,6 +25,6 @@ As previosuly mentioned, these are all integrated into the program using a comma
  
 Logging has been implemented in my project, with the system logging each and every process within the application, from the starting of the application, to the loading of the environment variables and plugins, and finally to the moment the application is closed. Each command entered is logged as well. 
 
-## Data Handling with Pandas ##
+### Data Handling with Pandas ###
 
 I created the data module for the sole purpose of handling managing data generated through the calculator's use. Within the module I've created a class called app data that has the built in class methods add_record and retrieve_history. This made it so that all instances of appdata would be able to be recorded within a single dataframe. The class also comes with the built-in ability to save every new instance of app data into a CSV file sans the index and headers.
