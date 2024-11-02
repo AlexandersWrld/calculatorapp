@@ -1,6 +1,6 @@
 # Advanced Python Calculator for IS218, Building Web Applications.
 
-## App Demonstration: https://youtu.be/jWWxObkXaCA ##
+## App Demonstration: https://youtu.be/Z7rD80DvTo8 ##
 
 ## Introduction ## 
 This project serves to teach us how to develop an advanced calculator application utilizing python's native functionality. 
@@ -27,4 +27,4 @@ Logging has been implemented in my project, with the system logging each and eve
 
 ## Data Handling with Pandas ##
 
-I created the data module for the sole purpose of handling managing data generated through the calculator's use. Within the module I've created a class called app data that has the built in class methods add_record and retrieve_history. This made it so that all instances of appdata would be able to be recorded within a single dataframe. 
+I created the data module for the sole purpose of handling managing data generated through the calculator's use. Within the module I've created a class called app data that has the built in class methods add_record and retrieve_history. This made it so that all instances of appdata would be able to be recorded within a single dataframe. The class also comes with the built-in ability to save every new instance of app data into a CSV file sans the index and headers.
